@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic HTML + CSS</title>
+
+    <style>
+        body {
+            background-color: lavender;
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        .headerDiv {
+            background-color: blueviolet;
+            color: bisque;
+            padding: 10px 5px 5px 5px;
+        }
+
+        h1 {
+            margin: 0 5px 5px 5px;
+        }
+
+        #title {
+            text-align: center;
+        }
+
+        #introduction {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .catsContainer {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-evenly;
+            margin: auto;
+        }
+
+        .catDiv {
+            text-align: center;
+            box-shadow: 0 0 20px 5px gray;
+            padding: 10px 10px 5px 10px;
+            margin: 30px 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 250px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.317);
+            padding-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="headerDiv">
+        <h1 id="title">Let's Practice Developer Tools</h1>
+        <p id="introduction">Open DevTools in your broswer and see how your broswer understands your HTML file</p>
+    </div>
+    <div class="catsContainer">
+        <div class="catDiv">
+            <img src="cat.jpg" alt="cat1">
+            <p>Cute cat</p>
+        </div>
+
+        <div class="catDiv">
+            <img src="cat2.jpg" alt="cat2">
+            <p>Scared cat</p>
+        </div>
+
+        <div class="catDiv">
+            <img src="cat3.jpg" alt="cat3">
+            <p>Playful cats</p>
+        </div>
+
+        <div class="catDiv">
+            <img src="cat.jpg" alt="cat4">
+            <p>Cute cat</p>
+        </div>
+    </div>
+</body>
+
+</html>
